@@ -4,10 +4,12 @@ import DirectoryMenu from '../../components/directory-menu/directory-menu.compon
 
 import './homepage.styles.scss'
 
+import { HomePageContainer } from './Homepage.styles'
+
 const Homepage = () =>(
-    <div className='homepage'>
+    <HomePageContainer>
         <DirectoryMenu />
-    </div>
+    </HomePageContainer>
 )
 
 export default Homepage
